@@ -1,0 +1,5 @@
+package com.lucas.practice.api.services.interfaces;
+
+public interface IService {
+
+}

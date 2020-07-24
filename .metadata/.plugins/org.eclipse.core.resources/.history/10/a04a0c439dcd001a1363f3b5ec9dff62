@@ -1,0 +1,13 @@
+package com.lucas.practice.api.services;
+
+import com.lucas.practice.api.entities.User;
+import com.lucas.practice.api.repository.interfaces.IUserRepository;
+import com.lucas.practice.api.services.interfaces.IUserService;
+
+public class UserService extends BaseService<User, IUserRepository> implements IUserService {
+	
+	public UserService(IUserRepository repo) 
+	{
+		super(repo);
+	}
+}

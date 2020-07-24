@@ -1,0 +1,5 @@
+package com.lucas.practice.api.repository.interfaces;
+
+public interface IRepository {
+
+}

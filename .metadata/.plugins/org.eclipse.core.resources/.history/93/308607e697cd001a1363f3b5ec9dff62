@@ -1,0 +1,8 @@
+package com.lucas.practice.api.repository.interfaces;
+
+import com.lucas.practice.api.entities.User;
+import com.lucas.practice.api.services.interfaces.IService;
+
+public interface IUserRepository extends IService<User>{
+
+}

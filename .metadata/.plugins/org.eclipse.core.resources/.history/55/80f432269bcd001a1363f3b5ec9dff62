@@ -1,0 +1,30 @@
+package com.lucas.practice.api.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.lucas.practice.api.entities.BaseModel;
+import com.lucas.practice.api.services.interfaces.IService;
+
+@RestController
+@RequestMapping("/api")
+public abstract class BaseController<TModel extends BaseModel, 
+									Service extends IService<TModel>> 
+{
+	private Service _service;
+	
+	public BaseController(Service service) 
+	{
+		_service = service;
+	}
+	
+	@GetMapping
+	@RequestMapping("/health")
+	public String HealthCheck() {
+		return "Funcionando";
+	}
+
+}

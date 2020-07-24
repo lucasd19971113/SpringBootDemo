@@ -1,0 +1,9 @@
+package com.lucas.practice.api.services.interfaces;
+
+import com.lucas.practice.api.entities.BaseModel;
+
+public interface IService<T extends BaseModel> {
+	
+	
+
+}

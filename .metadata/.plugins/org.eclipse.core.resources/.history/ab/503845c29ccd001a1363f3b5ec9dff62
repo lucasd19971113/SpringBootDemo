@@ -1,0 +1,5 @@
+package com.lucas.practice.api.config;
+
+public class AppConfig {
+
+}
