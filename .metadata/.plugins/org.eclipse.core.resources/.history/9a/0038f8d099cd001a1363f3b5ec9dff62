@@ -1,8 +1,0 @@
-package com.lucas.practice.api.controller;
-
-import com.lucas.practice.api.entities.User;
-import com.lucas.practice.api.services.interfaces.IUserService;
-
-public class UserController extends BaseController<User,IUserService> {
-	
-}

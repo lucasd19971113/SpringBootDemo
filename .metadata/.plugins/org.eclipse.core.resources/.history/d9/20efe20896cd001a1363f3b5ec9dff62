@@ -1,7 +1,0 @@
-package com.lucas.practice.api.repository.interfaces;
-
-import com.lucas.practice.api.entities.BaseModel;
-
-public interface IRepository<T extends BaseModel> {
-
-}

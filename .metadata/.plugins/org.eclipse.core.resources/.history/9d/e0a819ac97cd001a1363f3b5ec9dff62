@@ -1,5 +1,0 @@
-package com.lucas.practice.api.repository;
-
-public class UserRepository {
-
-}
